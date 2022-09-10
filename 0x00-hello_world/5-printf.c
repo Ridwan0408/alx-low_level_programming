@@ -5,7 +5,7 @@
  *
  * Description: using the main function
  * this program prints "with proper grammar, but the outcome is a piece of art,"
- * Return: Always 0 (success)
+ * Return: Always 0 (success:)
  */
 int main(void)
 {
