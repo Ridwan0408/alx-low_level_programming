@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the string to stdout
- * 
+ *
  * Return: Always 0 (success).
  */
 int main(void)
