@@ -1,12 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Prints the last digit
  *
  *  Description: using the main function
  *  this program prints the last digit of a number
+ *
+ *  Return: Always 0
  */
+
 int main(void)
 {
 	int n;
