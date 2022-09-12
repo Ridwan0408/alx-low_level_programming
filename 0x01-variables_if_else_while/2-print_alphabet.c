@@ -12,13 +12,13 @@
 int main(void)
 
 {
-	char alphabet;
+	int c;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(alphabet);
+		putchar(c);
 	}
-		putchar("\n");
+		putchar('\n');
 
 	return (0);
 }
