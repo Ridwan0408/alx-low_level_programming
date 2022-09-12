@@ -5,7 +5,8 @@
 /**
  *  main - Prints a random number 
  *
- *  Description: it states wether it is positive, negative, or zero.
+ *  Description: using the main function
+ *  this program states wether it is positive, negative, or zero.
  *  
  *  Return: Always 0
  */
