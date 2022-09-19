@@ -15,9 +15,8 @@ void more_numbers(void)
 	{
 		for (n2 = 48; n2 <= 62; n2++)
 		{
-			putchar (n2);
+			putchar ((n2 / 10) + '0');
 		}
-		putchar (n1);
 	}
 	putchar ('\n');
 }
