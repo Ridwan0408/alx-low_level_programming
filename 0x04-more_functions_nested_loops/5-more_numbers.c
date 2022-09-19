@@ -11,9 +11,9 @@ void more_numbers(void)
 {
 	int n1, n2;
 
-	for (n1 = 48; n1 <= 57; n1++)
+	for (n1 = 0; n1 <= 9; n1++)
 	{
-		for (n2 = 48; n2 <= 62; n2++)
+		for (n2 = 0; n2 <= 0; n2++)
 		{
 			if (n2 > 9)_
 			putchar ((n2 / 10) + '0');
