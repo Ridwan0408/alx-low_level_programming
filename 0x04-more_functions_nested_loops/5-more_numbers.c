@@ -9,15 +9,15 @@
 
 void more_numbers(void)
 {
-	int n, a;
+	int n1, n2
 
-	for (n = 48; n <= 57; n++)
+	for (n1 = 48; n1 <= 57; n1++)
 	{
-		for (a = 48; a <= 62; a++)
+		for (n1 = 48; n2 <= 62; a++)
 		{
-			putchar (a);
+			putchar (n1);
 		}
-		putchar (n);
+		putchar (n2);
 	}
 	putchar ('\n');
 }
