@@ -15,8 +15,10 @@ void more_numbers(void)
 	{
 		for (n2 = 48; n2 <= 62; n2++)
 		{
+			if (n2 > 9)_
 			putchar ((n2 / 10) + '0');
 		}
+		putchar ((n2 % 10) + '0');
 	}
 	putchar ('\n');
 }
