@@ -23,7 +23,7 @@ void rev_string(char *s)
 	length2 = length1 - 1;
 		for (i = 0; i < length1; i++)
 		{
-			"sum" ; "mus"
+			"sum"; "mus";
 
 			n = s[i];
 			s[length2] = n;
