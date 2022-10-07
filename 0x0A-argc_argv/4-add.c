@@ -10,25 +10,30 @@
 
 int main(int argc, char *argv[])
 {
-	int i, num, sum = 0;
+	int i, sum = 0;
+	char c;
 
-	if (argc == 0)
+	c = 48, 49, 50, 51, 52, 53, 54, 55, 56, 57;
+
+	if (argc == 1)
+	{
 		printf("0\n");
+	}
 
 	else if (argc > 1)
 	{
-		for (i = 1; i < argc; i++)
+		for (i = 0; i < argc; i++)
 		{
-			printf("argv[%d] = %s\n", i, argv[i]);
 			sum += atoi(argv[i]);
+
+			 printf("%d\n", sum);
 		}
-		printf("Total = %d\n", sum);
 	}
 
-	for (num = 48; num < 57;)
+	else if (argc != c)
 	{
-		if (argc != num)
-			printf("Error\n");
+
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
