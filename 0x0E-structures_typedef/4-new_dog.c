@@ -3,7 +3,7 @@
 
 int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
-dog_t *new_dog(char *name, float age, char *owner);
+struct dog_t *new_dog(char *name, float age, char *owner);
 
 /**
  * _strlen - finds the length of a string
@@ -43,9 +43,10 @@ char *_strcopy(char *dest, char *src)
  * @owner: the owner of the dog
  * Return: the new struct dog
  */
-dog_t *new_dog(char *name, float age, char *owner)
+struct dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *doggo;
+	struct dog_t *doggo;
+	struct dog_t;
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
@@ -61,7 +62,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	doggo->owner = malloc(sizeof(char) * (_strlen(name) + 1));
+	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if (doggo->owner == NULL)
 	{
 		free(doggo->name);
